@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> MY Cash Bank</title>
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <!-- head section starts from herre -->
+
+    <head>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="fs-1 text-success text-center mt-4">Cash Bank</h1>
+            </div>
+        </div> 
+    </head>
+    <!-- main section starts form here -->
+    <main class="mt-5 mb-5 main-section">
+        <div class="container">
+            <!-- total expanses and balance starts from here -->
+            <div class="row ">
+                <div class="col-lg-7 col-sm-12">
+                    <img class="img-fluid img-box" src="images/money.jpg" alt="" />
+                </div>
+                <div class="col-lg-5 lower-section col-sm-12 background">
+                    <h1 class="text-center fw-semibold fs-4 mt-5">Income</h1>
+                    <h5 class="margin">
+                        income :
+                        <input id="income-input" class="input ms-2 mt-3" type="text" />
+                    </h5>
+                    <h1 class="text-center fw-semibold fs-4 mt-5">Expenses</h1>
+                    <h5 class="margin">
+                        food :
+                        <input id="food-input" class="input ms-3 mt-3" type="text" />
+                    </h5>
+                    <h5 class="margin">
+                        rent :
+                        <input id="rent-input" class="input ms-4 mt-3" type="text" />
+                    </h5>
+                    <h5 class="margin">
+                        clothes :
+                        <input id="clothes-input" class="input  mt-3" type="text" />
+                    </h5>
+
+                    <button id="calculator" class="btn-primary px-5 py-2 button text-white">
+                        Calculate
+                    </button>
+                    <!-- saving calculation starts form here -->
+                    <h4 class="mt-5 text-center">total expanses: <span id="total-expenses">00</span></h4>
+                    <h4 class="mt-2 text-center">Balance: <span id="balance">00</span></h4>
+                    <p class="saving-unit">
+                        save:<input id="saving-input" class="ms-2 saving-field" type="text" /> %
+                        <button id="saving-button" class="px-5 py-2 text-white bg-primary save-button">
+                            save
+                        </button>
+                    </p>
+
+                    <h4 class="mt-5 text-center">Saving amount: <span id="saving-amount">00</span></h4>
+                    <h4 class="mt-2 text-center">Remaining Balance : <span id="remaining">00</span></h4>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- bootstrap javascript link -->
+    <script src="css/bootstrap.bundle.min.js"></script>
+    <!-- custom javascript link -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+/* css body starts from here */
+
+.body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.input {
+    width: 40%;
+}
+
+.background {
+    background-color: #f8f8f8;
+}
+
+.margin {
+    margin-left: 168px;
+}
+
+/* expenses and balancing button */
+
+button {
+    margin-left: 211px;
+    margin-top: 10px;
+}
+
+/* saving button  */
+
+.save-button {
+    margin-left: 10px;
+}
+
+.saving-unit {
+    margin-left: 73px;
+}
+
+/* media querry starts from here */
+
+@media only screen and (max-width:632px) {
+    .body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .margin {
+        margin-left: 110px;
+    }
+    .button {
+        margin-left: 132px;
+    }
+    .saving-unit {
+        margin-left: 48px;
+    }
+    .save-button {
+        margin-left: 6px;
+        margin-top: 10px;
+    }
+    .saving-field {
+        width: 90px;
+    }
+    .lower-section {
+        margin-top: 25px;
+    }
+}
